@@ -1,0 +1,103 @@
+body{
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #f7f7f7;
+    justify-items: center;
+    margin-top: 60px;
+    gap: 60px;
+}
+
+.menu a{
+    text-decoration: none;
+    background-color: #ffff;
+    padding: 15px 20px;
+    color: black;
+    font-weight: bold;
+}
+.menu a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu{
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.introducao{
+    background-color: #fff;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    align-content: center;
+    gap: 20px;
+    justify-items: end;
+}
+
+.detalhe{
+    width: 60px;
+    height: 4px;
+    background-color: rgba(255, 0, 0, 0.911);
+    position: absolute;
+    top: 30px;
+    display: inline-block;
+    right: -30px;
+}
+
+.botao{
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.911);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.subtitulo{
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: right;
+  margin: 40px;
+  align-self: center;
+}
+
+.vatagens{
+  background-color: #f7f7f7;
+  padding: 40px;
+  
+}
+
+.vatagens-itens{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 10px;
+    gap: 10px 20px;
+}
+
+.vatagens-itens p {
+    grid-column: 2;
+    margin-top: -10px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+p{
+    font-size: 20px;
+    line-height:1.3 ;   
+}
+.vatagens-itens img{
+    margin-top: 15px;
+}
